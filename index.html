@@ -1,0 +1,182 @@
+<!--Site só para treino, todas as imagens apresentadas não serão usadas para meios comerciais, usei só para testar meus conhecimentos sobre as duas tecnologias HTML e CSS, Ficará disponivel no github. -->
+
+<!--Codigo organizado de acordo com as apresentações do site-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musica Instrumental</title>
+    <link rel="stylesheet" href="src/css/estlo.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="shortcut icon" href="src/image/icone do site.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate&display=swap" rel="stylesheet">
+        
+<!--preciso concluir a cor do site, botar fonte-->
+<style>
+    body { 
+        background-image:linear-gradient(to bottom, );    
+    }
+    p {
+        font-size: 17px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+        color:black;
+        font-size: 21px;
+    }
+    .logo-guitarras  {
+        margin-top:9px;
+        margin-bottom:9px;
+        border:1px solid gray;
+        border-radius:8px; 
+    }
+</style>
+<!--preciso concluir a cor do site, botar fonte, -->
+</head>
+<body>
+    <!--Apresentação da loja e cartões aceitos pela empresa-->
+    <header>
+        <div class="cabecalho">
+            <span>Artista, seu lugar é aqui!!</span>
+        </div>
+            <div class="cartoes">
+                <span>Aceitamos</span>
+             <a href=""><img src="src/image/paypal.png" height="30px;" alt="Cartão paypal"></a>
+             <a href=""><img src="src/image/visa.png" height="30px;" width="50px;" alt="Cartão visa"></a>
+             <a href=""><img src="src/image/mastercard.png" height="30px;" alt="Crtão mastercard"></a>
+            </div>     
+    </header>
+    <!--Apresentação da loja e cartões aceitos pela empresa-->
+    <main>
+        <p>maajaa</p>
+       <picture> <!--preciso redimensionar para dispositivos moveis-->
+         <source media="(max-width:500px )" srcset="src/image/logo m.jpg" type="image/jpg">
+        <img src="src/image/logo.jpg" height="500px;" width="100%;" style="border-radius:10px ;" alt=" logo de guitarras">
+       </picture>
+       <h1>Seja bem vindo ao Musica Instrumental</h1>
+       <p>Estamos atendendo há mais de 10 anos no mercado físico e acabamos  de entrar no mercado digital, temos diversos tipos de violões clássicos, embutidos e acoplados, sem contar com as belas guitarras. Com todas as cores que você imagina, observe abaixo os tipos de violões e guitarras disponíveis no momento.A cada semana atualizamos o site de acordo com os pedidos dos clientes e pela taxa de vendas.</p>
+       <!--violões atualizados no momento-->
+       <div class="menu-violoes">
+        <div class="primeira-fileira">
+            <div class="violoes">
+                <a href=""><img src="src/image/violão classico.jpg" alt="Violão Classico" height="250x" width="250px;"></a> <span>Violão Classico R$:150,00</span>
+            </div>
+            <div class="violoes">
+                <a href=""><img src="src/image/violão flat.webp" alt="Violão Folk" height="250x" width="250px;"></a> <span>Violão Flat R$:250,00</span>
+            </div>
+            <div class="violoes">
+                <a href=""><img src="src/image/violão folk.jpg" alt="Violão Folk" height="250x" width="250px;"></a> <span>Violão Folk R$:300,00</span>
+            </div>
+        </div>
+        <div class="segunda-fileira">
+            <div class="violoes">
+                <a href=""><img src="src/image/violão jumbo.webp" alt="Violão Jumbo" height="250x" width="250px;"></a> <span>Violão Jumbo R$:400,00</span>
+            </div>
+            <div class="violoes">
+                <a href=""><img src="src/image/violão giannini.jpg" alt="Violão Giannini" height="250x" width="250px;"></a> <span>Violão Giannini R$:450,00</span>
+            </div>
+            <div class="violoes">
+                <a href=""><img src="src/image/violão strinberg.webp" alt="Violão Strinberg" height="250x" width="250px;"></a> <span>Violão Strinberg R$:400,00</span>
+            </div>
+        </div>
+        <div class="terceira-fileira">
+            <div class="violoes">
+                <a href=""><img src="src/image/violão tagma.jpg" alt="Violão Tagma" height="250x" width="250px;"></a> <span>Violão Tagma R$:500,00</span>
+            </div>
+            <div class="violoes">
+                <a href=""><img src="src/image/Violão Epiphone.jpg" alt="Violão Epiphone" height="250x" width="250px;"></a> <span>Violão Epiphone R$:600,00</span>
+            </div>
+            <div class="violoes">
+                <a href=""><img src="src/image/Violão Fender.jpg" alt=" Violão Fender" height="250x" width="250px;"></a> <span>Violão Fender R$:600,00</span>
+            </div>
+        </div>     
+     </div>
+     <!--violões atualizados no momento-->
+     <!--guitarras atualizados no momento-->
+     <div class="logo-guitarras">
+        <picture> <!--precios redimensionar para dispositivos moveis, talvez  eu troque a foto-->
+            <source media="(max-width:500px )" srcset="src/image/logo2 m.webp" type="image/webp">
+           <img src="src/image/logo2.webp" height="450px;" width="100%" style="border-radius:10px;" width="100%;" alt=" logo de violões">
+          </picture>
+     </div>
+     <div class="menu-guitarras">
+        <div class="primeira-fileira">
+            <div class="guitarras">
+                <div class="guitarras">
+                    <a href=""><img src="src/image/guitarra explorer.webp" alt="Guitarra Exlorer" height="250px" width="250px;"></a><span>Guitarra Explorer R$:3.000,00</span>
+                </div>
+                <div class="guitarras">
+                    <a href=""><img src="src/image/guitarra flying.webp" alt="Guitarra Flying" height="250px" width="250px;"></a><span>Guitarra Flying R$:3.000,00</span>
+                </div>
+                <div class="guitarras">
+                    <a href=""><img src="src/image/guitarra les paul.webp" alt="Guitarra Leus Paul" height="250px" width="250px;"></a><span>Guitarra Les Paul R$:3.500,00</span>
+                </div>
+            </div>
+        </div>
+        <div class="segunda-fileira">
+            <div class="guitarras">
+                <a href=""><img src="src/image/guitarra sg.webp" alt="Guitarra Sg" height="250px" width="250px;"></a><span>Guitarra SG R$:3.600,00</span>
+            </div>
+            <div class="guitarras">
+                <a href=""><img src="src/image/guitarra stratocaster.jpg" alt="Guitarra stratocaster" height="250px" width="250px;"></a><span>Guitarra Stratocaster R$:3.800,00</span>
+            </div>
+            <div class="guitarras">
+                <a href=""><img src="src/image/guitarra telecaster.webp" alt="Guitarra Telecaster" height="250px" width="250px;"></a><span>Guitarra Telecaster R$:4.000,00</span>
+            </div>
+        </div>
+        <div class="terceira-fileira">
+            <div class="guitarras">
+                <a href=""><img src="src/image/Guitarra Revstar.jpg" alt="Guitarra Revstar" height="250px" width="250px;"></a><span>Guitarra Revstar R$:4.500,00</span>
+            </div>
+            <div class="guitarras">
+                <a href=""><img src="src/image/Guitarra Soloist.webp" alt="Guitarra Soloist" height="250px" width="250px;"></a><span>Guitarra Soloist R$:4.900,00</span>
+            </div>
+            <div class="guitarras">
+                <a href=""><img src="src/image/GUITARRA TAYLOR SOLID.webp" alt="Guitarra Taylor Solid" height="250px" width="250px;"></a><span>Guitarra Taylor Solid R$:5.200,00</span>
+            </div>
+        </div>
+     </div>
+     <!--guitarras atualizados no momento-->
+    </main>
+    <!--redes sociais, recomendações e etc...-->
+    <footer>
+        <div class="redes-sociais">
+            <div class="rede"><a href=""><img src="src/image/icone do facebook.png" alt="página do Facebook"></a> <span>Página Musica Instrumental</span>
+            </div>
+            <div class="rede">
+                <a href=""><img src="src/image/icone do instagram.webp" alt="Instagram"></a><span>@Musica Instrumental</span>
+            </div>
+            <div class="rede">
+                <a href="mailto:matheusbarthcorrea13@gmail.com"><img src="src/image/icone do gmail.jpg" alt="Gmail"></a><span>MusicaInstrumental@gmail.com</span>
+            </div>
+        </div>
+        <div class="servicos">
+            <div class="licenciamento-de-vendas">
+                <span>Serviços de intrumentos musicais(cordas)</span>
+            </div>
+            <div class="licenciamento-da-loja">
+                <span>Licencimento da loja <a href="src/artigos individuais/Licenciamento/index.html" target="_blank" rel="next"><input type="button" value="Aperte para ver"></a></span>
+            </div>
+        <a href=""><input type="button" value="Aperte para prencher o formulario">></a>
+        </div>
+     </footer>
+     <!--redes sociais, recomendações e etc...-->
+     <script>
+        window.alert('Seja bem vindo ao Musica Instrumental')
+     </script>
+     
+</body>
+</html>

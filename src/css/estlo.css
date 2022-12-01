@@ -1,0 +1,189 @@
+/* estilo do cabeçalho */
+header {
+    display: flex;
+    align-items: center;
+    width:auto;
+    height:43px;
+    border:1px dotted gray;
+    border-radius: 10px;;
+    margin-bottom: 10px;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-size:25px;
+    align-items:center;
+    margin-left: 10px;
+    color:rgb(73, 73, 73);
+}
+.cartoes {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-left: auto;
+    margin-right: 30px;
+    width:16%;
+    gap: 15px;
+    align-items: center;
+    font-family:'Oswald', sans-serif;
+    font-size:25px;
+    color:black;  
+}
+.cartoes span {
+    margin-bottom:7px;
+}
+h1 {
+    border: 1px dotted black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size:35px;
+    margin-right:25px;
+    font-family:'Righteous', cursive; /*preciso escolher */
+}
+/* estilo do cabeçalho */
+
+/*estilo do menu de violões*/
+.menu-violoes {
+    border: 1px solid gray;
+    border-radius: 10px;
+    height:auto;
+    width:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.menu-violoes img {
+    margin-top:10px;
+}
+
+.menu-violoes img {
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.violoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 14px;
+}
+/*estilo do menu de violões*/
+
+/*estilo geral de fileira*/
+.primeira-fileira {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.segunda-fileira {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.terceira-fileira {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+/*estilo geral de fileira*/
+
+/* estilo de menu de guitarras*/
+.guitarras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 13px;    
+}
+.guitarras img {
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.menu-guitarras {
+    border: 1px solid gray;
+    height:auto;
+    width:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+/* estilo de menu de guitarras*/
+
+/*rodapé apara redes socias e comentarios */
+footer {
+    display: flex;
+    height: 100px;
+    width:100%;
+    border: 1px solid gray;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(165, 165, 165);
+}
+.redes-sociais img {
+    width:25px;
+    height: 25px;
+    flex-direction: column;
+
+}
+.rede {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+    margin-left:10px;
+    font-size:20px;
+}
+.redes-socias {
+    flex-direction: column;
+    display: flex;
+    gap:7px;
+    height:auto;
+    width: 50%;
+    border: 1px solid black;
+    margin-right:30%;
+}
+.servicos {
+    width: 1000px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left:25%;
+    gap:10px;
+    flex-direction: column;
+    
+    }
+.licenciamento-de-vendas {
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+}
+.licenciamento-da-loja {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap:10px;
+    font-size:20px;
+    margin-left:10px;
+}
+.licenciamento-da-loja input {
+    height:25px;
+    font-size: 15px;
+    border-radius: 10px;
+} input {
+    margin-bottom:5px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: gray;
+}
+/*rodapé apara redes socias e comentarios */
+
+
+
